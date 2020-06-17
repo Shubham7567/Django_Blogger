@@ -1,0 +1,69 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Bold-webfont.woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Regular-webfont.woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Light-webfont.woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: "Roboto","Lucida Grande","DejaVu Sans","Bitstream Vera Sans",Verdana,Arial,sans-serif;
+    color: #333;
+    background: #e8e8e8;
+}
+
+.navbar{
+    width: 100%;
+    background: #417690;
+    height: 50px;
+    align-items: center;
+    display: flex;
+    padding: 0px 1rem;
+}
+
+.navbar .navbar-brand{
+    display: block;
+}
+
+.navbar .navbar-brand .logo{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 32px;
+    color: #fff;
+}
+
+.navbar .navbar-nav{
+    display: block;
+    align-items: center;
+}
+
+.navbar .navbar-nav .nav-list{
+    display: flex;
+    list-style: none;
+}
+
+.navbar .navbar-nav .nav-list .nav-item{
+    display: block;
+}
+
+.navbar .navbar-nav .nav-list .nav-item .nav-link{
+    padding: 0px 10px;
+    font-size: 22px;
+    color: #fff;
+}
+
